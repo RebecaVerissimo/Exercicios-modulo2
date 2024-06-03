@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 80px 300px auto 300px;
+}
+
+h1{
+    font-family: Orbitron;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+ul{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    font-family: Orbitron;
+    flex-direction: row;
+    list-style: none;
+}
+
+img{
+    width: 11em;
+    height: 13em;
+    object-fit: cover;
+    margin-top: 1em;
+    border-radius: 5px;
+}
+
+.div-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+input{
+    height: 2em;
+    width: 25em;
+    margin-top: 2em;
+    margin-bottom: 8em;
+    margin-right: 10em;
+    padding: 15px 10px;
+    border: none;
+    border-bottom: 2px solid blue;
+}
+textarea{
+    height: 20em;
+    width: 25em;
+    margin-top: 2em;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 4px;
+    background-color: lightgray;
+}
+
+button{
+    border: 2px solid blue;
+    background-color: lightgrey;
+    padding: 15px 32px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
