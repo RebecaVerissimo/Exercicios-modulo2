@@ -40,6 +40,10 @@ ul li, .red{
     cursor: pointer;
 }
 
+a{
+    text-decoration: none;
+}
+
 .info_serie {
     display: flex;
     flex-direction: column;
