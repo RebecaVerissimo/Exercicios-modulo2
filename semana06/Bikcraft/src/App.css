@@ -1,0 +1,49 @@
+#root {
+  text-align: center;
+}
+
+.contato{
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  margin-top: 0;
+}
+
+.form{
+  background-color: black;
+  padding: 20px;
+  border-radius: 4px;
+  color: white;
+  font: 300 1rem "Poppins", sans-serif;
+}
+
+button{
+  padding: 16px 32px;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #332200;
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background: linear-gradient(#ffb60d, #e59317);
+}
+
+fieldset{
+  border-style: none;
+}
+
+input, textarea{
+  border: 0;
+  border-bottom: 1px solid;
+}
